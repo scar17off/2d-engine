@@ -1,0 +1,14 @@
+[package]
+name = "renderer_2d"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+winit = "0.28"
+wgpu = "0.16"
+pollster = "0.3"
+bytemuck = { version = "1.13", features = ["derive"] }
+glam = "0.24"
+egui = "0.22"
+egui-winit = "0.22"
+egui-wgpu = "0.22"
