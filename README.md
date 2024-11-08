@@ -31,15 +31,15 @@ The application uses:
 - A custom tool system with trait-based polymorphism
 
 ## Project Structure 
-src/
-├── main.rs # Main application logic and UI
-├── engine.rs # Rendering engine using wgpu
-├── shader.wgsl # WGSL shader for rendering
-└── tools/ # Drawing tools implementation
-├── mod.rs # Tool trait and ActiveTool enum
-├── brush.rs # Brush tool implementation
-├── eraser.rs # Eraser tool implementation
-├── line.rs # Line tool implementation
+src/  
+├── main.rs # Main application logic and UI  
+├── engine.rs # Rendering engine using wgpu  
+├── shader.wgsl # WGSL shader for rendering  
+└── tools/ # Drawing tools implementation  
+├── mod.rs # Tool trait and ActiveTool enum  
+├── brush.rs # Brush tool implementation  
+├── eraser.rs # Eraser tool implementation  
+├── line.rs # Line tool implementation  
 └── rectangle.rs # Rectangle tool implementation
 
 ## Future Work
@@ -53,14 +53,14 @@ If the issues can be resolved, planned features include:
 - Better eraser blending
 
 ## Dependencies
-toml
-winit = "0.28"
-wgpu = "0.16"
-pollster = "0.3"
-bytemuck = { version = "1.13", features = ["derive"] }
-glam = "0.24"
-egui = "0.22"
-egui-winit = "0.22"
+toml  
+winit = "0.28"  
+wgpu = "0.16"  
+pollster = "0.3"  
+bytemuck = { version = "1.13", features = ["derive"] }  
+glam = "0.24"  
+egui = "0.22"  
+egui-winit = "0.22"  
 egui-wgpu = "0.22"
 
 ## License
